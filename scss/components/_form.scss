@@ -1,0 +1,22 @@
+
+.form {
+    @include flex($fdir:column);
+    padding-top: 10px;
+}
+
+
+.form__label--hidden {
+    display:none;
+
+}
+.form__input {
+    font-weight:bold;
+    border-bottom-color:$green;
+    border-bottom-width:5px;
+    padding:20px 20px;
+    
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    outline:none;
+    }

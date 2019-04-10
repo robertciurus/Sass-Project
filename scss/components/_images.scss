@@ -1,0 +1,21 @@
+
+
+.img--logo {
+   padding-right:30px;
+}
+
+
+.img--frame {
+    border:solid thin $lightgrey;
+    padding: 10px;
+}
+
+.img--frame,
+.img--avatar {
+  @include flex;
+  @include center;
+}
+
+.img--avatar {
+  padding-bottom: 10px;
+}

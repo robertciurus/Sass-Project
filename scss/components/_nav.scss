@@ -1,0 +1,31 @@
+
+ .nav {
+   list-style: none;
+  @include mq ($break-m) {
+  @include flex($fdir:row);
+  &__item {
+  display: block;
+  margin-right: auto;
+
+   }
+ }
+
+&__item a {
+  display: inline-block;
+  }
+ }
+
+ .grid__col--9 {
+   a {
+     text-decoration: none;
+     text-align: center;
+     color: $color-text-primary;
+     padding:8px 40px;
+     line-height: 40px;
+     border-radius:3px;
+     &:hover {
+       color:$color-text-secondary;
+       background-color: $green;
+     }
+   }
+ }

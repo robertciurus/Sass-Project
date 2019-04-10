@@ -1,0 +1,35 @@
+
+
+//Fonts//
+
+@import 'https://fonts.googleapis.com/css?family=PT+Sans';
+
+$font: 'PT Sans', sans-serif;
+
+//Specific colors//
+$grey: #646464;
+$lightgrey: #C9CACA;
+$green: #70E8C5;
+$lightgreen: #8DD398;
+$white:#fff;
+$blue: #59E7FE;
+$darkblue:#2191AF;
+$purple: #D6ABEA;
+$salmon: #E99292;
+$orange: #ED8E65;
+
+//Main colors//
+$color-text-primary: $grey;
+$color-text-secondary: $white;
+$color-text-tertiary: $lightgrey;
+
+//Button colors//
+$buttondefault:#17DFFF;
+$buttonsuccess:#6DC164;
+$buttonerror:#E07B72;
+$buttonwarning:#FF7A2A;
+$buttoninfo:#9C83C1;
+
+//Breakpoints//
+$break-s:320px;
+$break-m:769px;
